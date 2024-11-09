@@ -1,11 +1,62 @@
+<script setup lang="ts">
+import LearningObjectives from '~/components/LearningObjectives.vue';
+import RelatedTopics from '~/components/RelatedTopics.vue';
+</script>
+
+
 <template>
-  <Tutorial/>
+  <div>
+    <Nav></Nav>
+    <Header></Header>
+    <main class="w-[80%] mx-auto">
+      <div class="w-[60%] p-8">
+        <promo/>
+        <LearningObjectives/>
+        <RelatedTopics/>
+        <div>
+          container
+          <div>
+            Prepare for your certification with this course.
+          </div>
+          <div>
+            What you'll learn
+          </div>
+          <div>
+            Explore related topics
+          </div>
+          <div>
+            This course includes:
+          </div>
+          <div>
+            Top companies offer this course to their employees
+          </div>
+          <div>
+            course Content 
+          </div>
+          <div>
+            course Content Accordion
+          </div>
+    
+          <div>
+            Requirements
+          </div>
+    
+          <div>
+            Description
+          </div>
+    
+          <div>
+            Featured review
+          </div>
+    
+        </div>
+      </div>
+    </main>
+    <footer>
+      footer
+    </footer>
+  </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage'
-})
-</script>
+<style>
+</style>
