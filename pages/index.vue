@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import CourseIncludes from '~/components/CourseIncludes.vue';
 import LearningObjectives from '~/components/LearningObjectives.vue';
 import RelatedTopics from '~/components/RelatedTopics.vue';
+import TopCompanies from '~/components/TopCompanies.vue';
 </script>
 
 
@@ -13,6 +15,8 @@ import RelatedTopics from '~/components/RelatedTopics.vue';
         <promo/>
         <LearningObjectives/>
         <RelatedTopics/>
+        <CourseIncludes/>
+        <TopCompanies/>
         <div>
           container
           <div>
