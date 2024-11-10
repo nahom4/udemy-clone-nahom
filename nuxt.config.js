@@ -1,4 +1,8 @@
 export default {
+  router: {
+    base: '/udemy-clone-nahom/', // Replace 'your-repository-name' with your actual repository name
+  },
+  // Ensure your target is 'static'
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
