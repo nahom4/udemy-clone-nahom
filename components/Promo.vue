@@ -1,7 +1,7 @@
 <template>
     <div class="border-2 border-[#D1D7DC]">
-        <div class="bg-[#D1D7DC] p-4">
-            Prepare for your certification with this course.<a>Learn more</a>
+        <div class="bg-[#F7F9FA] p-4 text-[#2D2F31] font-bold">
+            Prepare for your certification with this course.<a href="#" class="text-[#5022C3] p-1">Learn more</a>
         </div>
         <div class="flex items-center gap-2 p-2">
             <img src="../assets/images/PMP.svg">
