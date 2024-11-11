@@ -2,16 +2,16 @@
     <v-container>
       <P class="font-bold text-2xl pb-4">Students also bought</P>
       <div>
-        <PreviousCourses :src="require('../assets/images/pole.svg')"/>
-        <PreviousCourses :src="require('../assets/images/thumbs_up.svg')"/>
-        <PreviousCourses :src="require('../assets/images/man_sitting.svg')"/>
-        <PreviousCourses :src="require('../assets/images/pole.svg')"/>
-        <PreviousCourses :src="require('../assets/images/thumbs_up.svg')"/>
+        <PreviousCourses src="/images/pole.svg"/>
+        <PreviousCourses src="/images/thumbs_up.svg"/>
+        <PreviousCourses src="/images/man_sitting.svg"/>
+        <PreviousCourses src="/images/pole.svg"/>
+        <PreviousCourses src="/images/thumbs_up.svg"/>
         
         <div v-if="isExpanded">
-          <PreviousCourses :src="require('../assets/images/man_sitting.svg')"/>
-          <PreviousCourses :src="require('../assets/images/pole.svg')"/>
-          <PreviousCourses :src="require('../assets/images/thumbs_up.svg')"/>
+          <PreviousCourses src="/images/man_sitting.svg"/>
+          <PreviousCourses src="/images/pole.svg"/>
+          <PreviousCourses src="/images/thumbs_up.svg"/>
         </div>
         
         <v-btn

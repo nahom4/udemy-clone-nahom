@@ -1,11 +1,13 @@
 export default {
   router: {
-    base: '/udemy-clone-nahom/', // Replace 'your-repository-name' with your actual repository name
+    base: '/udemy-clone-nahom/', 
   },
-  // Ensure your target is 'static'
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
 
+
+  target: 'static',
+  generate: {
+    dir: 'dist' 
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'udemy-clone',

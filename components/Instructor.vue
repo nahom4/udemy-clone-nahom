@@ -12,7 +12,7 @@
 
           <div class="flex">
             <img
-            src="../assets/images/review.svg"
+            src="/images/review.svg"
             alt="Instructor Photo"
             class="w-24 h-24 rounded-full mr-4"
             />
