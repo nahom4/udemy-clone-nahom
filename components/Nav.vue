@@ -14,7 +14,7 @@
         class="bg-transparent w-full focus:outline-none"
       />
     </div>
-    <div class="flex w-90 justify-between items-center">
+    <div class="justify-between items-center" style="width: 500px; display: flex;">
       <div class="hover:text-blue-500 cursor-pointer">Udemy Business</div>
       <div class="hover:text-blue-500 cursor-pointer">Tech on Udemy</div>
       <div>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="hidden lg:flex">
     <!-- Component that sticks on scroll, with conditional video section -->
     <div
       class="fixed top-20 right-20 w-96 bg-white border border-gray-300 p-6 shadow-lg rounded-lg"
