@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden lg:flex">
+  <div v-if="!hideComponent" class="hidden lg:flex">
     <!-- Component that sticks on scroll, with conditional video section -->
     <div
       class="fixed top-20 right-20 w-96 bg-white border border-gray-300 p-6 shadow-lg rounded-lg"
@@ -101,6 +101,7 @@ export default {
   data() {
     return {
       isScrolled: false,
+      hideComponent: false,
     };
   },
   mounted() {
@@ -111,8 +112,17 @@ export default {
   },
   methods: {
     handleScroll() {
-      this.isScrolled = window.scrollY > 100; // Adjust this value as needed
+      const footer = document.getElementById("footer");
+      const footerTop = footer.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      // Check if user has scrolled past a certain point
+      this.isScrolled = window.scrollY > 100;
+
+      // Check if footer is within the viewport
+      this.hideComponent = footerTop <= windowHeight;
     },
   },
 };
+
 </script>

@@ -35,7 +35,7 @@ import TopCompanies from '~/components/TopCompanies.vue';
         <MoreCourseByJoseph/>
       </div>
     </main>
-    <footer>
+    <footer id="footer">
       <Footer/>
     </footer>
   </div>

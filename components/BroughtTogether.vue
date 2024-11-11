@@ -5,9 +5,9 @@ import BroughtTogetherTile from "./BroughtTogetherTile.vue";
 <template>
   <div class="p-6 flex flex-col gap-4 border-[#D1D7DC] border-2">
     <p class="text-[24px] font-bold">Frequently Bought Together</p>
-    <BroughtTogetherTile src='images/lady.jpg' />
-    <BroughtTogetherTile src='images/man.jpg.svg' />
-    <BroughtTogetherTile src='images/team.svg' />
+    <BroughtTogetherTile src='/images/lady.jpg' />
+    <BroughtTogetherTile src='/images/man.jpg.svg' />
+    <BroughtTogetherTile src='/images/team.svg' />
     <div class="flex justify-between">
       <p>Total: $254.97</p>
       <div
