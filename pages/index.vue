@@ -19,9 +19,9 @@ import TopCompanies from '~/components/TopCompanies.vue';
     <Nav/>
     <Header/>
     <SideBar/>
-    <main class="w-[80%] mx-auto">
+    <main class="p-4 mx-auto">
       <!-- <SideBar/> -->
-      <div class="w-[60%] p-8 flex flex-col gap-8" style="min-width: 700px;">
+      <div class="lg:w-[50%] p-8 flex flex-col gap-8">
         <promo/>
         <LearningObjectives/>
         <RelatedTopics/>

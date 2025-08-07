@@ -7,7 +7,7 @@
       This course was selected for our collection of top-rated courses trusted
       by businesses worldwide. <a href="#" class="text-[#5022C3]">Learn more</a>
     </p>
-    <div class="flex gap-12 pt-6">
+    <div class="flex flex-wrap gap-4 pt-6">
       <img src="/images/nasdaq.svg" />
       <img src="/images/bmw.svg" />
       <img src="/images/netApp.svg" />

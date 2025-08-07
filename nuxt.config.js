@@ -1,7 +1,7 @@
 export default {
-  router: {
-    base: '/udemy-clone-nahom/',  // Keep this if you're using a sub-path for your app
-  },
+  // router: {
+  //   base: '/udemy-clone-nahom/',  // Keep this if you're using a sub-path for your app
+  // },
 
   ssr: true,  // Enable server-side rendering (SSR)
   target: 'server',  // Set the target to 'server' for SSR deployment
@@ -67,5 +67,13 @@ export default {
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extend(config, { isDev, isClient, isServer }) {
+      if (isDev) {
+        config.devtool = 'source-map' // or 'eval-source-map' for faster builds
+      } else {
+        config.devtool = 'source-map'
+      }
+    }
+  },
 }

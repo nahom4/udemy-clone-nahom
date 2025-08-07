@@ -6,7 +6,7 @@
         <h2 class="text-2xl font-semibold mb-6">
             More Courses by <span class="text-indigo-600">Joseph Phillips</span>
         </h2>
-        <div class="flex gap-2 border-b-2 border-[#D1D7DC] pb-10">
+        <div class="flex flex-col md:flex-row gap-2 border-b-2 border-[#D1D7DC] pb-10">
             <CourseByJoseph src="/images/lady.jpg"/>
             <CourseByJoseph src="/images/man.jpg.svg"/>
             <CourseByJoseph src="/images/team.svg"/>

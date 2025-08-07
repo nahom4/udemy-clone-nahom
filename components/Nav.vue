@@ -1,11 +1,13 @@
 <template>
-  <div class="flex gap-4 justify-between p-6 text-[#2D2F31] items-center">
-    <div>
-      <img src="/images/logo-udemy.svg.svg" />
+  <div class="md:flex-wrap lg:flex gap-4 justify-between p-6 text-[#2D2F31] items-center">
+    <div class="flex justify-between p-2">
+      <div>
+      <img src="images/logo-udemy.svg.svg" />
     </div>
     <div>Categorie</div>
+    </div>
     <div
-      class="w-full md:w-[45%] bg-[#F7F9FA] rounded-2xl p-2 border-black border-2 flex items-center"
+      class="w-full mx-auto md:w-[45%] bg-[#F7F9FA] rounded-2xl p-2 border-black border-2 flex items-center"
     >
       <i class="fas fa-search px-2"></i>
       <input
@@ -14,7 +16,7 @@
         class="bg-transparent w-full focus:outline-none"
       />
     </div>
-    <div class="justify-between items-center" style="width: 500px; display: flex;">
+    <div class="justify-center gap-6 items-center p-2 flex">
       <div class="hover:text-blue-500 cursor-pointer">Udemy Business</div>
       <div class="hover:text-blue-500 cursor-pointer">Tech on Udemy</div>
       <div>

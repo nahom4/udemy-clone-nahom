@@ -1,6 +1,6 @@
 <template>
-      <div class="bg-white  p-4">
-                <img :src="src" alt="CAPM Exam Prep" class="w-full h-40 object-cover rounded-lg mb-4">
+      <div class="bg-white  p-4 border">
+                <img :src="src" alt="CAPM Exam Prep" class="h-40 object-cover rounded-lg mb-4">
                 <h3 class="text-lg font-semibold">CAPM Exam Prep Seminar - Updated for the 2023 CAP</h3>
                 <p class="text-gray-600">Joseph Phillips</p>
                 <div class="flex items-center mt-2">

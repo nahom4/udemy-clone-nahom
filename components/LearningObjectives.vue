@@ -1,7 +1,7 @@
 <template>
     <div class="p-6 border-2 border-[#D1D7DC]">
         <P class="text-[#2D2F31] text-[24px] font-bold py-4">What you'll learn</P>
-        <div class="flex flex-row gap-6">
+        <div class="flex flex-col md:flex-row gap-6">
             <div>
                 <LearningObjectiveTile text="Earn 35 PDUs/Contact Hours by completing the entire course, enhancing your professional skills."></LearningObjectiveTile>
                 <LearningObjectiveTile text="Complete the course and gain 35 PDUs/Contact Hours to expand your knowledge in the field."></LearningObjectiveTile>

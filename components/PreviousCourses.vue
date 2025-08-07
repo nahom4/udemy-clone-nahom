@@ -3,13 +3,13 @@
         <div class="flex gap-2">
             <img :src="src">
             <div class="flex flex-col gap-1">
-                <div class="flex gap-4">
+                <div class="flex gap-4 flex-wrap">
                     <p class="font-bold w-[50%]">
                         PMP Certification Exam Prep Course 35
                         PDU Contact Hours/PDU 
                        
                     </p>
-                    <div class="flex gap-4">
+                    <div class="flex gap-4 items-center">
                         <div>
                             4.7 <i class="fas fa-star text-[#B4690E]"></i>
                         </div>

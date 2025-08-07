@@ -1,9 +1,9 @@
 <template>
     <div class="flex justify-around">
-        <div class="flex gap-4" >
+        <div class="flex flex-col md:flex-row gap-4 items-center border p-2" >
 
             <img :src="src">
-            <div class="flex flex-col gap-1">
+            <div class="flex flex-col gap-1 border p-2">
                 <p class="font-[16px] font-bold">
                     PMP Exam Prep Seminar - Complete Exam
                     <label class="block">Coverage with 35 PDUs</label>  
@@ -18,10 +18,11 @@
                     </label>
                 </div>
             </div>
-        </div>
-        <p class=" font-bold">
+            <p class=" font-bold">
             $84.99
         </p>
+        </div>
+       
     </div>
 </template>
 

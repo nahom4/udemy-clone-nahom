@@ -2,7 +2,7 @@
 <template>
     <div class="bg-black ">
         <div class=" text-white w-[75%] mx-auto">
-            <div class="p-8 w-[50%] flex flex-col gap-6">
+            <div class="p-8 flex flex-col gap-6">
                 <div class="flex gap-2 text-[#C0C4FC] font-bold">
                     <div>
                         <p>
